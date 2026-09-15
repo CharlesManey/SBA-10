@@ -39,7 +39,7 @@ function ErrorMessage({
     <div className="p-4 bg-red-50 border-l-4 border-red-500 rounded">
       <div className="flex items-start gap-3">
         {/* Error icon */}
-        <div className="flex-shrink-0 mt-0.5">
+        <div className="shrink-0 mt-0.5">
           <svg
             className="w-5 h-5 text-red-500"
             fill="currentColor"
@@ -74,7 +74,7 @@ function ErrorMessage({
 
   if (centered) {
     return (
-      <div className="flex items-center justify-center min-h-[200px]">
+      <div className="flex items-center justify-center min-h-50">
         {errorContent}
       </div>
     );

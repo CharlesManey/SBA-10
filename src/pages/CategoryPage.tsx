@@ -35,7 +35,7 @@ function CategoryPage() {
   const meals = data?.meals || [];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-orange-50 py-8 px-4">
+    <div className="min-h-screen bg-linear-to-b from-amber-50 to-orange-50 py-8 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header with Back Button */}
         <div className="mb-8">
