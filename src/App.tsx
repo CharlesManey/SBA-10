@@ -12,9 +12,9 @@ import NavBar from './components/NavBar';
 
 function App() {
   return(
-    <div className='bg-amber-800 flex flex-col items-center'>
-      <header>
-        <h1 className='text-4xl font-bold text-amber-200 mb-2 pt-2'>Recipe Discovery App</h1>
+    <div className='flex flex-col items-center bg-linear-to-b from-amber-50 to-orange-50'>
+      <header className='bg-amber-800 min-w-screen sticky top-0 z-50 shadow-md'>
+        <h1 className='text-4xl font-bold text-amber-200 mb-2 pt-2 text-center'>Recipe Discovery App</h1>
         <NavBar />
       </header>
 

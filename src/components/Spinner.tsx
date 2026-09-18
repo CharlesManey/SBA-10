@@ -91,7 +91,7 @@ function Spinner({
   // If centered, wrap in centering container
   if (centered) {
     return (
-      <div className="flex items-center justify-center min-h-50">
+      <div className="flex items-center justify-center min-h-screen">
         {spinnerElement}
       </div>
     );
